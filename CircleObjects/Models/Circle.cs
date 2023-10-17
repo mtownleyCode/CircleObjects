@@ -13,7 +13,7 @@
 
         public double CalculateCircumference() => radius * Math.PI * 2;
 
-        public double CalculateArea() => radius * radius * 3.14;
+        public double CalculateArea() => radius * radius * Math.PI;
 
         public void Grow() => radius = radius * 2;
 
